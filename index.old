@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>I am Patrick Bond</title>
+
+      <!--Attempt to connect JS file-->
+
+</head>
+<body>
+    <!--Navbar-->
+<header>
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        
+        <div class="container">
+            <a href="#" class="navbar-brand">Patrick Bond</a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar">
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav ms-auto">
+                
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#skills" class="nav-link">Skills</a>
+              </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sites" class="nav-link">Sites</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--hero section-->
+
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="home">
+        
+       <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between pb-3">
+                <div>
+                <h1>Project Manager & <span class="text-warning">Certified Scrum Master </span></h1>
+               
+                </div>
+            <img class="img-fluid" src="img/Patrick_Bond.jpg" alt="Photo Patrick Bond">
+            </div>
+        </div>
+    </section>
+          <!-- Boxes -->
+          <section id="services" class="p-5">
+            <div class="container">
+              <div class="row text-center g-4">
+                <div class="col-md">
+                  <div id="developer-card" class="card bg-primary text-light">
+                    <div class="card-body text-center">
+                      <div class="h1 mb-3">
+                        <i class="bi bi-laptop"></i>
+                      </div>
+                      <h4 class="card-title mb-3">Developer</h4>
+                      <p class="card-text">
+                      
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                          <i class="bi bi-laptop"></i>
+                      </div>
+                      <h4 class="card-title mb-3">Technical Consultant</h4>
+                      <p class="card-text">
+                      
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                      <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                          <i class="bi bi-laptop"></i>
+                      </div>
+                      <h4 class="card-title mb-3">Project Manager</h4>
+                      <p class="card-text">
+                       
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+        </section>
+
+            <section id="skills" class="p-5">
+                <div class="container">
+                  <div class="row text-center g-4">
+                    <div class="col-md">
+                      <div class="card bg-danger text-light">
+                        <div class="card-body text-center">
+                          <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                          </div>
+                          <h4 class="card-title mb-3">Certified Scrum Master</h4>
+                          <p class="card-text">
+                            
+                          </p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-warning text-light">
+                          <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                              <i class="bi bi-laptop"></i>
+                          </div>
+                          <h4 class="card-title mb-3">Prince 2 Practicioner</h4>
+                          <p class="card-text">
+                          
+                          </p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-info text-light">
+                          <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                              <i class="bi bi-laptop"></i>
+                          </div>
+                          <h4 class="card-title mb-3">Train the Trainer</h4>
+                          <p class="card-text">
+                          
+                          </p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                
+              </section>
+
+              
+            
+          
+<!--Resume Acordion-->
+
+     <section id="work" class="p-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Work History</h2>
+          <div class="accordion accordion-flush" id="work">
+            <!-- Item 1 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-one"
+                >
+                <h4>Consultant & Project Manager <span class="text-warning">(FREELANCE) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-one"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>Working on a freelance basis I provide consultancy and project management services to a number of small andmedium size organisations. Including a Microsoft Dynamics 365 CRM deployment for a recruitmentconsultancy, various eCommerce deployments and migrations along with cloud and physical serverdeployments.</p></Working>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-two"
+                >
+                <h4>Chief Technical Officer <span class="text-warning">(EMACS LTD) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-two"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>As the CTO for EMCS I managed both the infrastructure and software development teams associated with oursoftware products namely Trading Eye eCommerce Platform along with managing all 3rd party suppliers oftechnical products and services.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-three"
+                >
+                <h4>Technical Director <span class="text-warning">(CTEK WALES LTD) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-three"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                   <p>AS the Technical Director of Ctek Wales a Microsoft Partner specialising in the deployment of Microsoft CRM,CMS and Commerce Server along with Microsoft Exchange, Windows and SQL Servers. I managed all technicalaspects of the delivery of these products along with line management of a team of technical supportprofessionals</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-four"
+                >
+                <h4>IT Services Manager <span class="text-warning">(ASTRIX INTEGRATED SYSTEMS LTD) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-four"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>In February 2007 I sold my consultancy practice to Astrix Integrated Systems, a larger competitor/ partner andwas employed in a managerial / consultancy  capacity.  I helped Astrix meet a number of milestoneachievements helping them greatly improve their professional and technical services teams ability to deliverservices on time  and on budget.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Item 5 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-five"
+                >
+                <h4>Company Director <span class="text-warning">(GLOBAL SITE HOSTS LTD) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-five"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>Providing hosting and domain registration services for a large range of organisations from SME to largeInternational businesses.</p></div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      
+        <div class="container">
+          <div class="accordion accordion-flush" id="work">
+            <!-- Item 6 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-six"
+                >
+                <h4>Regional IT Manager <span class="text-warning">(TRINITY MIRROR DIGITAL) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-six"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>As Trinity Mirrors Regional IT Account Manager, I provided the main link between Central and Regional IT departments and project managed both internal and external projects.
+
+                      Main projects managed
+                      Staff Training (technical & application) Project. (Wales & South)
+                      Microsoft Windows 2000 Server & Professional role out (Wales & South)
+                      Network Infrastructure deployment (Wales & South)
+                      Office refits, moves and changes (Various UK wide)
+                      Standard Messaging deployment (Wales & South)
+                      Content Management System development and deployment (Wales & South)
+                      Data Migration Project (Wales & South)
+                      E-Commerce evaluation project [MCIS and Intershop 4] (UK Wide</p></Working>
+                </div>
+              </div>
+            </div>
+            <!-- Item 7 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-seven"
+                >
+                <h4>IT Manager <span class="text-warning">(REQIO LTD) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-seven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>Whilst standing in as Catalysts IT Manager I provided the technical support and consultancy services for both in-house and client deployment of high availability e-commerce solutions and IT infrastructure.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 8 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-eight"
+                >
+                <h4>Technical Project Manager <span class="text-warning">(INTELECT PRODATA) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-eight"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                   <p>Stand in IT & Project Manager
+                    Contracted by Intellect Prodata in order to project manage a Y2K compliance project. I managed the upgrade of all servers and desktops along with network infrastructure and provided consultancy and 3rd line support to the rollout.
+                     
+                    Main projects managed
+                    Company Intranet Project
+                    Year 2000 compliance Project
+                    Network Infrastructure upgrade & staff training Project.
+                    Server & Desktop upgrade Project.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 9 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-nine"
+                >
+                <h4>Technical Trainer & Consultant <span class="text-warning">(HEWLETT PACKARD) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-nine"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>Originally employed to provide application &amp; OS training to users as part of a Hewlett Packard-managed rollout of 3500 NT 4.0 Workstations for NTL. I was placed in charge of managing the design and documentation of both a standard software build for the workstations and the technical rollout procedures plus the training for floorwalkers and rollout engineers. 
+                      In addition, as Hewlett Packard's main technical contractor for the project, I provided fault resolution and 3rd line support on an ongoing basis to NTL's offices throughout the UK. 
+                      
+                      Main projects managed
+                      Standard desktop design project.
+                      Technical training of all floorwalkers &amp; engineers.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Item 10 -->
+            <div class="accordion-item">
+              <h4 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-ten"
+                >
+                <h4>3rd Line Support Engineer <span class="text-warning">(IBM) </span></h4>
+                </button>
+              </h4>
+              <div
+                id="question-ten"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                    <p>As a 3rd Line Support Engineer for IBM I provided 2nd/3rd Line support for Lloyds TSB at a number of locations throughout the Bristol area. In addition I project managed the deployment of Y2K upgrades and hot fixes remotely for over 350 personal bankers using RAS to connect via Lloyds, Cannons Marsh Centre. 
+
+                      Main projects managed
+                      Year 2000 compliance Project for 350 + laptop users.</p></div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+ <!--Project Showcase-->
+
+<section id="work">
+  <div class="container mb-5">
+    <h2 class="text-center mb-4">Previous Projects</h2><br>
+    <div class="row">
+      <div class="col-md-3">
+
+        <div class="card h-100">
+        <img class="card-img-top" src="img/chrome_oAeAPGU6o4.png" alt="Mailbox Mania Website">
+        <div class="card-body">
+          <h5 class="card-title">Mailbox Mania</h5>
+          <p class="card-text">We originally built mailboxmania.co.uk with Magento, PHP and MySQL. Mailbox Mania Ltd are one of the UK’s premier suppliers of industrial post box units. The project not only involved a complete website rebuild in Magento but providing ongoing marketing support by managing the sites Google AdWords campaigns along with Google Analytics.</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+        <img class="card-img-top" src="img/chrome_ydDQ6TLITG.png" alt="Tradingeye Website">
+        <div class="card-body">
+          <h5 class="card-title">Tradingeye</h5>
+          <p class="card-text">As EMACS Chief Technical Officer I managed the deployment and hosting and development of our own ecommerce software product called Tradingeye for hundreds of customers.</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/chrome_asDehi3gwb.png" alt="Direct Tile Warehouse Website">
+          <div class="card-body">
+            <h5 class="card-title">Direct Tile Warehouse</h5>
+            <p class="card-text">Originally providing hosting only services to Direct Tile Warehouse we soon become involved in a consultancy capacity eventually rebuilding the site using Magento, PHP and MySQL. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/chrome_pVBQhbbpEF.png" alt="Merlin Motor Sport Website">
+          <div class="card-body">
+            <h5 class="card-title">Merlin Motorsport</h5>
+            <p class="card-text">Merlin Motor Sport provide car parts and accessories to sports teams and individuals involved in motor sport. The company director is a land speed record holder and has raced professionally in the past. Initially he was cautious about the use of ecommerce as his reputation in the industry is obviously important and at the time it was a new technology. We built the site from the ground up using OSCommerce PHP and MySQL. The site is extremely successful and increased the companies turnover considerably.</p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+</section>
+
+<!--About Me-->
+
+<section class="about-me">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p>A results-driven Technical Project Manager and Consultant with over 30 years of experience in the IT industry. I have a proven track record of  successfully leading consulting and delivering complex projects for and on behalfof companies including IBM, Hewlett Packard, Lloyds TSB, The bank of Ireland and Microsoft.  Coming from a consultancy / technical background I am extremely customer focused and work well with stakeholders from the shop floor to boardroom level. I have extensive experience designing, developing and delivering technical solutions in complex business environments</p>
+
+  </div>
+</section>
+
+
+</main>
+       
+<!--Footer with JS demo-->
+
+ <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2023 Patrick Bond</p>
+      <p class="lead">Contact Me</p>
+      <p class="lead">    Telephone: 07582-007-365    Email: mail@patbond.com</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+      <button type="button">
+        <img class="img-fluid" src="img/6214513_github_logo_icon.png" alt="Git Hub Logo" height="80" width="80" onmouseover="onimage.call(this)" onmouseout="outimage.call(this)" onclick="window.location.href='https://github.com/patrickbond';"/> 
+        </Button>
+
+      
+      <button type="button">
+        <img class="img-fluid" src="img/4747495_linked in_social media_networking_icon.png" alt="Linkedin Logo" height="80" width="80" onmouseover="onimageli.call(this)" onmouseout="outimageli.call(this)" onclick="window.location.href='https://www.linkedin.com/in/patbonduk/';"> 
+        </Button>
+
+    </div>
+  </footer>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+  
+</html>
